@@ -1,0 +1,15 @@
+E:\daily bench tasks\DAY5-TASK\CollectionsProj\bin\Debug\net6.0\CollectionsProj.exe
+E:\daily bench tasks\DAY5-TASK\CollectionsProj\bin\Debug\net6.0\CollectionsProj.deps.json
+E:\daily bench tasks\DAY5-TASK\CollectionsProj\bin\Debug\net6.0\CollectionsProj.runtimeconfig.json
+E:\daily bench tasks\DAY5-TASK\CollectionsProj\bin\Debug\net6.0\CollectionsProj.dll
+E:\daily bench tasks\DAY5-TASK\CollectionsProj\bin\Debug\net6.0\CollectionsProj.pdb
+E:\daily bench tasks\DAY5-TASK\CollectionsProj\obj\Debug\net6.0\CollectionsProj.csproj.AssemblyReference.cache
+E:\daily bench tasks\DAY5-TASK\CollectionsProj\obj\Debug\net6.0\CollectionsProj.GeneratedMSBuildEditorConfig.editorconfig
+E:\daily bench tasks\DAY5-TASK\CollectionsProj\obj\Debug\net6.0\CollectionsProj.AssemblyInfoInputs.cache
+E:\daily bench tasks\DAY5-TASK\CollectionsProj\obj\Debug\net6.0\CollectionsProj.AssemblyInfo.cs
+E:\daily bench tasks\DAY5-TASK\CollectionsProj\obj\Debug\net6.0\CollectionsProj.csproj.CoreCompileInputs.cache
+E:\daily bench tasks\DAY5-TASK\CollectionsProj\obj\Debug\net6.0\CollectionsProj.dll
+E:\daily bench tasks\DAY5-TASK\CollectionsProj\obj\Debug\net6.0\refint\CollectionsProj.dll
+E:\daily bench tasks\DAY5-TASK\CollectionsProj\obj\Debug\net6.0\CollectionsProj.pdb
+E:\daily bench tasks\DAY5-TASK\CollectionsProj\obj\Debug\net6.0\CollectionsProj.genruntimeconfig.cache
+E:\daily bench tasks\DAY5-TASK\CollectionsProj\obj\Debug\net6.0\ref\CollectionsProj.dll

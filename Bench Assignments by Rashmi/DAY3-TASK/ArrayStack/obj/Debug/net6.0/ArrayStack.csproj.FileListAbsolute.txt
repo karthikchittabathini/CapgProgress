@@ -1,0 +1,15 @@
+E:\CAPGEMINI\projects\ArrayStack\bin\Debug\net6.0\ArrayStack.exe
+E:\CAPGEMINI\projects\ArrayStack\bin\Debug\net6.0\ArrayStack.deps.json
+E:\CAPGEMINI\projects\ArrayStack\bin\Debug\net6.0\ArrayStack.runtimeconfig.json
+E:\CAPGEMINI\projects\ArrayStack\bin\Debug\net6.0\ArrayStack.dll
+E:\CAPGEMINI\projects\ArrayStack\bin\Debug\net6.0\ArrayStack.pdb
+E:\CAPGEMINI\projects\ArrayStack\obj\Debug\net6.0\ArrayStack.csproj.AssemblyReference.cache
+E:\CAPGEMINI\projects\ArrayStack\obj\Debug\net6.0\ArrayStack.GeneratedMSBuildEditorConfig.editorconfig
+E:\CAPGEMINI\projects\ArrayStack\obj\Debug\net6.0\ArrayStack.AssemblyInfoInputs.cache
+E:\CAPGEMINI\projects\ArrayStack\obj\Debug\net6.0\ArrayStack.AssemblyInfo.cs
+E:\CAPGEMINI\projects\ArrayStack\obj\Debug\net6.0\ArrayStack.csproj.CoreCompileInputs.cache
+E:\CAPGEMINI\projects\ArrayStack\obj\Debug\net6.0\ArrayStack.dll
+E:\CAPGEMINI\projects\ArrayStack\obj\Debug\net6.0\refint\ArrayStack.dll
+E:\CAPGEMINI\projects\ArrayStack\obj\Debug\net6.0\ArrayStack.pdb
+E:\CAPGEMINI\projects\ArrayStack\obj\Debug\net6.0\ArrayStack.genruntimeconfig.cache
+E:\CAPGEMINI\projects\ArrayStack\obj\Debug\net6.0\ref\ArrayStack.dll

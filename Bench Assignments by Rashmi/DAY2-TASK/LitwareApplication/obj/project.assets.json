@@ -1,0 +1,91 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0": {
+      "LitwareLibrary/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/LitwareLibrary.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/LitwareLibrary.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "LitwareLibrary/1.0.0": {
+      "type": "project",
+      "path": "../LitwareLibrary/LitwareLibrary.csproj",
+      "msbuildProject": "../LitwareLibrary/LitwareLibrary.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net6.0": [
+      "LitwareLibrary >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Tony\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "E:\\CAPGEMINI\\assignments by rashmi\\OOPS  ASSIGNMENT KARTHIK\\LitwareApplication\\LitwareApplication.csproj",
+      "projectName": "LitwareApplication",
+      "projectPath": "E:\\CAPGEMINI\\assignments by rashmi\\OOPS  ASSIGNMENT KARTHIK\\LitwareApplication\\LitwareApplication.csproj",
+      "packagesPath": "C:\\Users\\Tony\\.nuget\\packages\\",
+      "outputPath": "E:\\CAPGEMINI\\assignments by rashmi\\OOPS  ASSIGNMENT KARTHIK\\LitwareApplication\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\Tony\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "projectReferences": {
+            "E:\\CAPGEMINI\\assignments by rashmi\\OOPS  ASSIGNMENT KARTHIK\\LitwareLibrary\\LitwareLibrary.csproj": {
+              "projectPath": "E:\\CAPGEMINI\\assignments by rashmi\\OOPS  ASSIGNMENT KARTHIK\\LitwareLibrary\\LitwareLibrary.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net6.0": {
+        "targetAlias": "net6.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

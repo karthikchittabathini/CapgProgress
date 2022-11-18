@@ -1,0 +1,15 @@
+E:\daily bench tasks\DAY7-TASK\FilesDemo\bin\Debug\net6.0\FilesDemo.exe
+E:\daily bench tasks\DAY7-TASK\FilesDemo\bin\Debug\net6.0\FilesDemo.deps.json
+E:\daily bench tasks\DAY7-TASK\FilesDemo\bin\Debug\net6.0\FilesDemo.runtimeconfig.json
+E:\daily bench tasks\DAY7-TASK\FilesDemo\bin\Debug\net6.0\FilesDemo.dll
+E:\daily bench tasks\DAY7-TASK\FilesDemo\bin\Debug\net6.0\FilesDemo.pdb
+E:\daily bench tasks\DAY7-TASK\FilesDemo\obj\Debug\net6.0\FilesDemo.csproj.AssemblyReference.cache
+E:\daily bench tasks\DAY7-TASK\FilesDemo\obj\Debug\net6.0\FilesDemo.GeneratedMSBuildEditorConfig.editorconfig
+E:\daily bench tasks\DAY7-TASK\FilesDemo\obj\Debug\net6.0\FilesDemo.AssemblyInfoInputs.cache
+E:\daily bench tasks\DAY7-TASK\FilesDemo\obj\Debug\net6.0\FilesDemo.AssemblyInfo.cs
+E:\daily bench tasks\DAY7-TASK\FilesDemo\obj\Debug\net6.0\FilesDemo.csproj.CoreCompileInputs.cache
+E:\daily bench tasks\DAY7-TASK\FilesDemo\obj\Debug\net6.0\FilesDemo.dll
+E:\daily bench tasks\DAY7-TASK\FilesDemo\obj\Debug\net6.0\refint\FilesDemo.dll
+E:\daily bench tasks\DAY7-TASK\FilesDemo\obj\Debug\net6.0\FilesDemo.pdb
+E:\daily bench tasks\DAY7-TASK\FilesDemo\obj\Debug\net6.0\FilesDemo.genruntimeconfig.cache
+E:\daily bench tasks\DAY7-TASK\FilesDemo\obj\Debug\net6.0\ref\FilesDemo.dll

@@ -1,0 +1,31 @@
+E:\CAPGEMINI\projects\LitwareApplication\bin\Debug\net5.0\LitwareApplication.exe
+E:\CAPGEMINI\projects\LitwareApplication\bin\Debug\net5.0\LitwareApplication.deps.json
+E:\CAPGEMINI\projects\LitwareApplication\bin\Debug\net5.0\LitwareApplication.runtimeconfig.json
+E:\CAPGEMINI\projects\LitwareApplication\bin\Debug\net5.0\LitwareApplication.runtimeconfig.dev.json
+E:\CAPGEMINI\projects\LitwareApplication\bin\Debug\net5.0\LitwareApplication.dll
+E:\CAPGEMINI\projects\LitwareApplication\bin\Debug\net5.0\LitwareApplication.pdb
+E:\CAPGEMINI\projects\LitwareApplication\bin\Debug\net5.0\LitwareLibrary.dll
+E:\CAPGEMINI\projects\LitwareApplication\bin\Debug\net5.0\LitwareLibrary.pdb
+E:\CAPGEMINI\projects\LitwareApplication\obj\Debug\net5.0\LitwareApplication.csproj.AssemblyReference.cache
+E:\CAPGEMINI\projects\LitwareApplication\obj\Debug\net5.0\LitwareApplication.GeneratedMSBuildEditorConfig.editorconfig
+E:\CAPGEMINI\projects\LitwareApplication\obj\Debug\net5.0\LitwareApplication.AssemblyInfoInputs.cache
+E:\CAPGEMINI\projects\LitwareApplication\obj\Debug\net5.0\LitwareApplication.AssemblyInfo.cs
+E:\CAPGEMINI\projects\LitwareApplication\obj\Debug\net5.0\LitwareApplication.csproj.CoreCompileInputs.cache
+E:\CAPGEMINI\projects\LitwareApplication\obj\Debug\net5.0\LitwareApplication.csproj.CopyComplete
+E:\CAPGEMINI\projects\LitwareApplication\obj\Debug\net5.0\LitwareApplication.dll
+E:\CAPGEMINI\projects\LitwareApplication\obj\Debug\net5.0\refint\LitwareApplication.dll
+E:\CAPGEMINI\projects\LitwareApplication\obj\Debug\net5.0\LitwareApplication.pdb
+E:\CAPGEMINI\projects\LitwareApplication\obj\Debug\net5.0\LitwareApplication.genruntimeconfig.cache
+E:\CAPGEMINI\projects\LitwareApplication\obj\Debug\net5.0\ref\LitwareApplication.dll
+E:\CAPGEMINI\assignments by rashmi\OOPS  ASSIGNMENT KARTHIK\LitwareApplication\bin\Debug\net5.0\LitwareApplication.exe
+E:\CAPGEMINI\assignments by rashmi\OOPS  ASSIGNMENT KARTHIK\LitwareApplication\bin\Debug\net5.0\LitwareApplication.dll
+E:\CAPGEMINI\assignments by rashmi\OOPS  ASSIGNMENT KARTHIK\LitwareApplication\bin\Debug\net5.0\LitwareLibrary.dll
+E:\CAPGEMINI\assignments by rashmi\OOPS  ASSIGNMENT KARTHIK\LitwareApplication\bin\Debug\net5.0\LitwareLibrary.pdb
+E:\CAPGEMINI\assignments by rashmi\OOPS  ASSIGNMENT KARTHIK\LitwareApplication\obj\Debug\net5.0\LitwareApplication.csproj.AssemblyReference.cache
+E:\CAPGEMINI\assignments by rashmi\OOPS  ASSIGNMENT KARTHIK\LitwareApplication\obj\Debug\net5.0\LitwareApplication.GeneratedMSBuildEditorConfig.editorconfig
+E:\CAPGEMINI\assignments by rashmi\OOPS  ASSIGNMENT KARTHIK\LitwareApplication\obj\Debug\net5.0\LitwareApplication.AssemblyInfoInputs.cache
+E:\CAPGEMINI\assignments by rashmi\OOPS  ASSIGNMENT KARTHIK\LitwareApplication\obj\Debug\net5.0\LitwareApplication.AssemblyInfo.cs
+E:\CAPGEMINI\assignments by rashmi\OOPS  ASSIGNMENT KARTHIK\LitwareApplication\obj\Debug\net5.0\LitwareApplication.csproj.CoreCompileInputs.cache
+E:\CAPGEMINI\assignments by rashmi\OOPS  ASSIGNMENT KARTHIK\LitwareApplication\obj\Debug\net5.0\LitwareApplication.dll
+E:\CAPGEMINI\assignments by rashmi\OOPS  ASSIGNMENT KARTHIK\LitwareApplication\obj\Debug\net5.0\refint\LitwareApplication.dll
+E:\CAPGEMINI\assignments by rashmi\OOPS  ASSIGNMENT KARTHIK\LitwareApplication\obj\Debug\net5.0\LitwareApplication.pdb

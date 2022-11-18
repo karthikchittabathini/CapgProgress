@@ -1,0 +1,15 @@
+E:\daily bench tasks\DAY5-TASK\ArrayListProj\bin\Debug\net6.0\ArrayListProj.exe
+E:\daily bench tasks\DAY5-TASK\ArrayListProj\bin\Debug\net6.0\ArrayListProj.deps.json
+E:\daily bench tasks\DAY5-TASK\ArrayListProj\bin\Debug\net6.0\ArrayListProj.runtimeconfig.json
+E:\daily bench tasks\DAY5-TASK\ArrayListProj\bin\Debug\net6.0\ArrayListProj.dll
+E:\daily bench tasks\DAY5-TASK\ArrayListProj\bin\Debug\net6.0\ArrayListProj.pdb
+E:\daily bench tasks\DAY5-TASK\ArrayListProj\obj\Debug\net6.0\ArrayListProj.csproj.AssemblyReference.cache
+E:\daily bench tasks\DAY5-TASK\ArrayListProj\obj\Debug\net6.0\ArrayListProj.GeneratedMSBuildEditorConfig.editorconfig
+E:\daily bench tasks\DAY5-TASK\ArrayListProj\obj\Debug\net6.0\ArrayListProj.AssemblyInfoInputs.cache
+E:\daily bench tasks\DAY5-TASK\ArrayListProj\obj\Debug\net6.0\ArrayListProj.AssemblyInfo.cs
+E:\daily bench tasks\DAY5-TASK\ArrayListProj\obj\Debug\net6.0\ArrayListProj.csproj.CoreCompileInputs.cache
+E:\daily bench tasks\DAY5-TASK\ArrayListProj\obj\Debug\net6.0\ArrayListProj.dll
+E:\daily bench tasks\DAY5-TASK\ArrayListProj\obj\Debug\net6.0\refint\ArrayListProj.dll
+E:\daily bench tasks\DAY5-TASK\ArrayListProj\obj\Debug\net6.0\ArrayListProj.pdb
+E:\daily bench tasks\DAY5-TASK\ArrayListProj\obj\Debug\net6.0\ArrayListProj.genruntimeconfig.cache
+E:\daily bench tasks\DAY5-TASK\ArrayListProj\obj\Debug\net6.0\ref\ArrayListProj.dll

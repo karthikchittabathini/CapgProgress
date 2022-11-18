@@ -1,0 +1,15 @@
+E:\daily bench tasks\DAY5-TASK\RdyGaming\bin\Debug\net6.0\RdyGaming.exe
+E:\daily bench tasks\DAY5-TASK\RdyGaming\bin\Debug\net6.0\RdyGaming.deps.json
+E:\daily bench tasks\DAY5-TASK\RdyGaming\bin\Debug\net6.0\RdyGaming.runtimeconfig.json
+E:\daily bench tasks\DAY5-TASK\RdyGaming\bin\Debug\net6.0\RdyGaming.dll
+E:\daily bench tasks\DAY5-TASK\RdyGaming\bin\Debug\net6.0\RdyGaming.pdb
+E:\daily bench tasks\DAY5-TASK\RdyGaming\obj\Debug\net6.0\RdyGaming.csproj.AssemblyReference.cache
+E:\daily bench tasks\DAY5-TASK\RdyGaming\obj\Debug\net6.0\RdyGaming.GeneratedMSBuildEditorConfig.editorconfig
+E:\daily bench tasks\DAY5-TASK\RdyGaming\obj\Debug\net6.0\RdyGaming.AssemblyInfoInputs.cache
+E:\daily bench tasks\DAY5-TASK\RdyGaming\obj\Debug\net6.0\RdyGaming.AssemblyInfo.cs
+E:\daily bench tasks\DAY5-TASK\RdyGaming\obj\Debug\net6.0\RdyGaming.csproj.CoreCompileInputs.cache
+E:\daily bench tasks\DAY5-TASK\RdyGaming\obj\Debug\net6.0\RdyGaming.dll
+E:\daily bench tasks\DAY5-TASK\RdyGaming\obj\Debug\net6.0\refint\RdyGaming.dll
+E:\daily bench tasks\DAY5-TASK\RdyGaming\obj\Debug\net6.0\RdyGaming.pdb
+E:\daily bench tasks\DAY5-TASK\RdyGaming\obj\Debug\net6.0\RdyGaming.genruntimeconfig.cache
+E:\daily bench tasks\DAY5-TASK\RdyGaming\obj\Debug\net6.0\ref\RdyGaming.dll

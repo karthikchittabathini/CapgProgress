@@ -1,0 +1,15 @@
+E:\daily bench tasks\DAY7-TASK\SerializationAndDeserialization\bin\Debug\net6.0\SerializationAndDeserialization.exe
+E:\daily bench tasks\DAY7-TASK\SerializationAndDeserialization\bin\Debug\net6.0\SerializationAndDeserialization.deps.json
+E:\daily bench tasks\DAY7-TASK\SerializationAndDeserialization\bin\Debug\net6.0\SerializationAndDeserialization.runtimeconfig.json
+E:\daily bench tasks\DAY7-TASK\SerializationAndDeserialization\bin\Debug\net6.0\SerializationAndDeserialization.dll
+E:\daily bench tasks\DAY7-TASK\SerializationAndDeserialization\bin\Debug\net6.0\SerializationAndDeserialization.pdb
+E:\daily bench tasks\DAY7-TASK\SerializationAndDeserialization\obj\Debug\net6.0\SerializationAndDeserialization.csproj.AssemblyReference.cache
+E:\daily bench tasks\DAY7-TASK\SerializationAndDeserialization\obj\Debug\net6.0\SerializationAndDeserialization.GeneratedMSBuildEditorConfig.editorconfig
+E:\daily bench tasks\DAY7-TASK\SerializationAndDeserialization\obj\Debug\net6.0\SerializationAndDeserialization.AssemblyInfoInputs.cache
+E:\daily bench tasks\DAY7-TASK\SerializationAndDeserialization\obj\Debug\net6.0\SerializationAndDeserialization.AssemblyInfo.cs
+E:\daily bench tasks\DAY7-TASK\SerializationAndDeserialization\obj\Debug\net6.0\SerializationAndDeserialization.csproj.CoreCompileInputs.cache
+E:\daily bench tasks\DAY7-TASK\SerializationAndDeserialization\obj\Debug\net6.0\SerializationAndDeserialization.dll
+E:\daily bench tasks\DAY7-TASK\SerializationAndDeserialization\obj\Debug\net6.0\refint\SerializationAndDeserialization.dll
+E:\daily bench tasks\DAY7-TASK\SerializationAndDeserialization\obj\Debug\net6.0\SerializationAndDeserialization.pdb
+E:\daily bench tasks\DAY7-TASK\SerializationAndDeserialization\obj\Debug\net6.0\SerializationAndDeserialization.genruntimeconfig.cache
+E:\daily bench tasks\DAY7-TASK\SerializationAndDeserialization\obj\Debug\net6.0\ref\SerializationAndDeserialization.dll

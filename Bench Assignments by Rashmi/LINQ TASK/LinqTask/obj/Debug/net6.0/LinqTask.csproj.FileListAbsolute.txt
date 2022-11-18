@@ -1,0 +1,15 @@
+E:\Bench Progress\Bench Assignments by Rashmi\LINQ TASK\LinqTask\bin\Debug\net6.0\LinqTask.exe
+E:\Bench Progress\Bench Assignments by Rashmi\LINQ TASK\LinqTask\bin\Debug\net6.0\LinqTask.deps.json
+E:\Bench Progress\Bench Assignments by Rashmi\LINQ TASK\LinqTask\bin\Debug\net6.0\LinqTask.runtimeconfig.json
+E:\Bench Progress\Bench Assignments by Rashmi\LINQ TASK\LinqTask\bin\Debug\net6.0\LinqTask.dll
+E:\Bench Progress\Bench Assignments by Rashmi\LINQ TASK\LinqTask\bin\Debug\net6.0\LinqTask.pdb
+E:\Bench Progress\Bench Assignments by Rashmi\LINQ TASK\LinqTask\obj\Debug\net6.0\LinqTask.csproj.AssemblyReference.cache
+E:\Bench Progress\Bench Assignments by Rashmi\LINQ TASK\LinqTask\obj\Debug\net6.0\LinqTask.GeneratedMSBuildEditorConfig.editorconfig
+E:\Bench Progress\Bench Assignments by Rashmi\LINQ TASK\LinqTask\obj\Debug\net6.0\LinqTask.AssemblyInfoInputs.cache
+E:\Bench Progress\Bench Assignments by Rashmi\LINQ TASK\LinqTask\obj\Debug\net6.0\LinqTask.AssemblyInfo.cs
+E:\Bench Progress\Bench Assignments by Rashmi\LINQ TASK\LinqTask\obj\Debug\net6.0\LinqTask.csproj.CoreCompileInputs.cache
+E:\Bench Progress\Bench Assignments by Rashmi\LINQ TASK\LinqTask\obj\Debug\net6.0\LinqTask.dll
+E:\Bench Progress\Bench Assignments by Rashmi\LINQ TASK\LinqTask\obj\Debug\net6.0\refint\LinqTask.dll
+E:\Bench Progress\Bench Assignments by Rashmi\LINQ TASK\LinqTask\obj\Debug\net6.0\LinqTask.pdb
+E:\Bench Progress\Bench Assignments by Rashmi\LINQ TASK\LinqTask\obj\Debug\net6.0\LinqTask.genruntimeconfig.cache
+E:\Bench Progress\Bench Assignments by Rashmi\LINQ TASK\LinqTask\obj\Debug\net6.0\ref\LinqTask.dll

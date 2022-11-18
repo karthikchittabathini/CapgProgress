@@ -1,0 +1,15 @@
+E:\daily bench tasks\DAY5-TASK\GenericList\bin\Debug\net6.0\GenericList.exe
+E:\daily bench tasks\DAY5-TASK\GenericList\bin\Debug\net6.0\GenericList.deps.json
+E:\daily bench tasks\DAY5-TASK\GenericList\bin\Debug\net6.0\GenericList.runtimeconfig.json
+E:\daily bench tasks\DAY5-TASK\GenericList\bin\Debug\net6.0\GenericList.dll
+E:\daily bench tasks\DAY5-TASK\GenericList\bin\Debug\net6.0\GenericList.pdb
+E:\daily bench tasks\DAY5-TASK\GenericList\obj\Debug\net6.0\GenericList.csproj.AssemblyReference.cache
+E:\daily bench tasks\DAY5-TASK\GenericList\obj\Debug\net6.0\GenericList.GeneratedMSBuildEditorConfig.editorconfig
+E:\daily bench tasks\DAY5-TASK\GenericList\obj\Debug\net6.0\GenericList.AssemblyInfoInputs.cache
+E:\daily bench tasks\DAY5-TASK\GenericList\obj\Debug\net6.0\GenericList.AssemblyInfo.cs
+E:\daily bench tasks\DAY5-TASK\GenericList\obj\Debug\net6.0\GenericList.csproj.CoreCompileInputs.cache
+E:\daily bench tasks\DAY5-TASK\GenericList\obj\Debug\net6.0\GenericList.dll
+E:\daily bench tasks\DAY5-TASK\GenericList\obj\Debug\net6.0\refint\GenericList.dll
+E:\daily bench tasks\DAY5-TASK\GenericList\obj\Debug\net6.0\GenericList.pdb
+E:\daily bench tasks\DAY5-TASK\GenericList\obj\Debug\net6.0\GenericList.genruntimeconfig.cache
+E:\daily bench tasks\DAY5-TASK\GenericList\obj\Debug\net6.0\ref\GenericList.dll

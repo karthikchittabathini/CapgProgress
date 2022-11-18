@@ -1,0 +1,15 @@
+E:\daily bench tasks\DAY7-TASK\StreamReaderAndWriterDemo\bin\Debug\net6.0\StreamReaderAndWriterDemo.exe
+E:\daily bench tasks\DAY7-TASK\StreamReaderAndWriterDemo\bin\Debug\net6.0\StreamReaderAndWriterDemo.deps.json
+E:\daily bench tasks\DAY7-TASK\StreamReaderAndWriterDemo\bin\Debug\net6.0\StreamReaderAndWriterDemo.runtimeconfig.json
+E:\daily bench tasks\DAY7-TASK\StreamReaderAndWriterDemo\bin\Debug\net6.0\StreamReaderAndWriterDemo.dll
+E:\daily bench tasks\DAY7-TASK\StreamReaderAndWriterDemo\bin\Debug\net6.0\StreamReaderAndWriterDemo.pdb
+E:\daily bench tasks\DAY7-TASK\StreamReaderAndWriterDemo\obj\Debug\net6.0\StreamReaderAndWriterDemo.csproj.AssemblyReference.cache
+E:\daily bench tasks\DAY7-TASK\StreamReaderAndWriterDemo\obj\Debug\net6.0\StreamReaderAndWriterDemo.GeneratedMSBuildEditorConfig.editorconfig
+E:\daily bench tasks\DAY7-TASK\StreamReaderAndWriterDemo\obj\Debug\net6.0\StreamReaderAndWriterDemo.AssemblyInfoInputs.cache
+E:\daily bench tasks\DAY7-TASK\StreamReaderAndWriterDemo\obj\Debug\net6.0\StreamReaderAndWriterDemo.AssemblyInfo.cs
+E:\daily bench tasks\DAY7-TASK\StreamReaderAndWriterDemo\obj\Debug\net6.0\StreamReaderAndWriterDemo.csproj.CoreCompileInputs.cache
+E:\daily bench tasks\DAY7-TASK\StreamReaderAndWriterDemo\obj\Debug\net6.0\StreamReaderAndWriterDemo.dll
+E:\daily bench tasks\DAY7-TASK\StreamReaderAndWriterDemo\obj\Debug\net6.0\refint\StreamReaderAndWriterDemo.dll
+E:\daily bench tasks\DAY7-TASK\StreamReaderAndWriterDemo\obj\Debug\net6.0\StreamReaderAndWriterDemo.pdb
+E:\daily bench tasks\DAY7-TASK\StreamReaderAndWriterDemo\obj\Debug\net6.0\StreamReaderAndWriterDemo.genruntimeconfig.cache
+E:\daily bench tasks\DAY7-TASK\StreamReaderAndWriterDemo\obj\Debug\net6.0\ref\StreamReaderAndWriterDemo.dll

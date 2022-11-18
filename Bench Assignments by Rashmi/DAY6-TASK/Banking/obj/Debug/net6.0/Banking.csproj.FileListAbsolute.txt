@@ -1,0 +1,15 @@
+E:\daily bench tasks\DAY6-TASK\Banking\bin\Debug\net6.0\Banking.exe
+E:\daily bench tasks\DAY6-TASK\Banking\bin\Debug\net6.0\Banking.deps.json
+E:\daily bench tasks\DAY6-TASK\Banking\bin\Debug\net6.0\Banking.runtimeconfig.json
+E:\daily bench tasks\DAY6-TASK\Banking\bin\Debug\net6.0\Banking.dll
+E:\daily bench tasks\DAY6-TASK\Banking\bin\Debug\net6.0\Banking.pdb
+E:\daily bench tasks\DAY6-TASK\Banking\obj\Debug\net6.0\Banking.csproj.AssemblyReference.cache
+E:\daily bench tasks\DAY6-TASK\Banking\obj\Debug\net6.0\Banking.GeneratedMSBuildEditorConfig.editorconfig
+E:\daily bench tasks\DAY6-TASK\Banking\obj\Debug\net6.0\Banking.AssemblyInfoInputs.cache
+E:\daily bench tasks\DAY6-TASK\Banking\obj\Debug\net6.0\Banking.AssemblyInfo.cs
+E:\daily bench tasks\DAY6-TASK\Banking\obj\Debug\net6.0\Banking.csproj.CoreCompileInputs.cache
+E:\daily bench tasks\DAY6-TASK\Banking\obj\Debug\net6.0\Banking.dll
+E:\daily bench tasks\DAY6-TASK\Banking\obj\Debug\net6.0\refint\Banking.dll
+E:\daily bench tasks\DAY6-TASK\Banking\obj\Debug\net6.0\Banking.pdb
+E:\daily bench tasks\DAY6-TASK\Banking\obj\Debug\net6.0\Banking.genruntimeconfig.cache
+E:\daily bench tasks\DAY6-TASK\Banking\obj\Debug\net6.0\ref\Banking.dll
