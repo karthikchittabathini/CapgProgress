@@ -1,0 +1,48 @@
+﻿@model FootballProject.Models.FootBallLeague
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1>Details</h1>
+
+<div>
+    <h4>FootBallLeague</h4>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.TeamName1)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.TeamName1)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.TeamName2)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.TeamName2)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Status)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Status)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.WinningTeam)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.WinningTeam)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Points)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Points)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model?.MatchId">Edit</a> |
+    <a asp-action="Index">Back to List</a>
+</div>
