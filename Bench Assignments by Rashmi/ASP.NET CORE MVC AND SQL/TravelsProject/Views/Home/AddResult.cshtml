@@ -1,0 +1,61 @@
+﻿@model BusInfo
+@{
+    ViewData["Title"] = "Create";
+}
+<!DOCTYPE html>
+<html>
+    <head>
+
+    </head>
+
+    <body>
+        <div class="m-4">
+        <h1 style="text-align: center" class="display-3">PKR Travels<a asp-action="Index" class="float-end btn btn-secondary btn-lg mt-4">Back</a></h1>
+            
+        </div>
+
+    <form method="post" asp-controller="Home" asp-action="AddResult" class="bg-secondary p-4">
+            <fieldset>
+                <legend class="display-6 text-white text-center m-5">Add Journey Information</legend>
+                
+                <div class="text-white mb-4">
+                <label asp-for="BoardingPoint"><h4>Boarding Point :</h4></label>
+                <input asp-for="BoardingPoint" type="text" class="form-control" value="" />
+                <span asp-validation-for="BoardingPoint" class="text-danger"></span>
+                </div>
+
+                <div class="text-white mb-4">
+                <label asp-for="TravelDate"><h4>Travel Date :</h4></label>
+                <input asp-for="TravelDate" type="datetime-local" class="form-control" value="" />
+                <span asp-validation-for="TravelDate" class="text-danger"></span>
+                </div>
+
+                <div class="text-white mb-4">
+                <label asp-for="Amount"><h4>Amount :</h4></label>
+                <input asp-for="Amount" type="number" class="form-control" value="" />
+                <span asp-validation-for="Amount" class="text-danger"></span>
+                </div> 
+
+                <div class="text-white mb-5">
+                <label asp-for="Rating"><h4>Rating :</h4></label>
+                <input asp-for="Rating" type="number" class="form-control" value="" />
+                <span asp-validation-for="Rating" class="text-danger"></span>
+                </div>
+
+                <div class="text-white mb-5">
+               
+                    <input type="submit" value="Submit" class="submit btn btn-warning btn-lg"/>
+                </div>
+
+            </fieldset>
+        </form>
+
+    </body>
+</html>
+
+
+@section Scripts{
+    @{
+        <partial name="_ValidationScriptsPartial" />
+    }
+}

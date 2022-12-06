@@ -1,0 +1,18 @@
+﻿
+@{
+    ViewData["Title"] = "DeleteRecord";
+}
+
+<h1>DeleteRecord</h1>
+
+
+
+<form method="post" asp-controller="Home" asp-action="DeleteRecord">
+    <fieldset>
+        <label for="BusId">Bus Id :</label>
+        <input type="number" name="BusId" value=""/>
+
+        <input type="submit" class="submit" value="Submit"/>
+    </fieldset>
+</form>
+

@@ -1,0 +1,76 @@
+﻿@model IEnumerable<TravelsProject.Models.BusInfo>
+
+    @{
+        ViewData["Title"] = "My App";
+    }
+<!DOCTYPE html>
+<html>
+<body>
+
+<div style="background-color:aquamarine; height:100vh;width:100%">
+        <table class="table">
+            <thead>
+            <tr>
+            <th>Boarding point</th>
+            <th>Amount</th>
+            <th>Rating</th>
+            </tr>
+            </thead>
+
+            <tbody>
+                @foreach(var x in Model){
+                    <tr>
+                        <td>@x.BoardingPoint</td>
+                        <td>@x.Amount</td>
+                        <td>@x.Rating</td>
+                    </tr>
+                }
+            </tbody>
+
+
+        </table>
+
+
+<hr />
+<h1>Welcome to the practice Page</h1>
+
+<br />
+@*single statement block*@
+
+@{var Name = "Chittabathini Karthik";}
+
+<!-- Inline expression or variable -->   
+<h5>Hii My name is : @Name</h5>
+
+<br />
+<!-- Multiline statement block -->
+
+@{
+    var PageInformation = "This is just a practice page for the razor code";
+    var CurrentTime = DateTime.Now;
+    var TotalInfoMsg = PageInformation + "  " + CurrentTime;
+}
+
+<h3>@TotalInfoMsg</h3>
+
+    @{
+        var txt = "";
+        if(DateTime.Now.Hour > 12){
+            txt = "Good Evening";
+        }
+        else{
+            txt = "Good Morning";
+        }
+    }
+
+    <br />
+    <h2>Greetings : @txt</h2>
+
+
+       
+
+
+    </div>
+
+</body>
+</html>

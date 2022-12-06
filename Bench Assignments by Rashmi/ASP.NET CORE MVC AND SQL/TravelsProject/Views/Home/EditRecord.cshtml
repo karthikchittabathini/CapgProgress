@@ -1,0 +1,64 @@
+﻿@model BusInfo
+<!DOCTYPE html>
+<html>
+<head>
+
+</head>
+
+<body>
+    <div class="m-4">
+        <h1 style="text-align: center" class="display-3">PKR Travels<a asp-action="ShowList" class="float-end btn btn-secondary btn-lg mt-4">Back</a></h1>
+
+    </div>
+
+    <form method="post" asp-controller="Home" asp-action="EditRecord" class="bg-secondary p-4">
+        <fieldset>
+            <legend class="display-6 text-white text-center m-5">Edit Journey Information</legend>
+
+            <div class="form-group text-white mb-4">
+          
+                <input asp-for="BusId" type="hidden"/>
+             
+            </div>
+
+            <div class="text-white mb-4 from-group">
+                <label asp-for="BoardingPoint" class="control-label"></label>
+                <input asp-for="BoardingPoint" class="form-control"/>
+                <span asp-validation-for="BoardingPoint" class="text-danger"></span>
+            </div>
+
+            <div class="text-white mb-4">
+                <label asp-for="TravelDate" class="control-label"></label>
+                <input asp-for="TravelDate" class="form-control"/>
+                <span asp-validation-for="TravelDate" class="text-danger"></span>
+            </div>
+
+            <div class="text-white mb-4">
+                <label asp-for="Amount" class="control-label"></label>
+                <input asp-for="Amount" class="form-control"/>
+                <span asp-validation-for="Amount" class="text-danger"></span>
+            </div>
+
+            <div class="text-white mb-5">
+                <label asp-for="Rating" class="control-label"></label>
+                <input asp-for="Rating" class="form-control"/>
+                <span asp-validation-for="Rating" class="text-danger"></span>
+            </div>
+
+            <div class="text-white mb-5">
+
+                <input type="submit" value="Update" class="submit btn btn-warning btn-lg" />
+            </div>
+
+        </fieldset>
+    </form>
+
+</body>
+</html>
+
+
+@section Scripts{
+    @{
+        <partial name="_ValidationScriptsPartial" />
+    }
+    }
