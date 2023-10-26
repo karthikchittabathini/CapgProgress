@@ -1,0 +1,258 @@
+What is SQL?
+SQL - Structured Query Language.
+SQL is the standard language for dealing with Relational databases.
+SQL is used to insert, search, update and delete database records.
+
+
+Case Sensitive:- 
+SQL keywords are not case sensitive :- here both select and SELECT are same.
+
+-----------------------------------------
+Most Important SQL Commands:-
+-----------------------------------------
+SELECT - extracts data from a database
+UPDATE - updates data in a database
+DELETE - deletes data from a database
+INSERT INTO - inserts new data into a database
+CREATE DATABASE - creates a new database
+ALTER DATABASE - modifies a database
+CREATE TABLE - creates a new table
+ALTER TABLE - modifies a table
+DROP TABLE - deletes a table
+CREATE INDEX - creates an index (search key)
+DROP INDEX - deletes an index
+
+---------------------------------
+MySQL Joining Tables
+---------------------------------
+A JOIN clause is used to combine rows from two or more tables, based on a
+related column between them.
+
+--------------------------------------
+Supported Types of Joins in MySQL :-
+--------------------------------------
+INNER JOIN :- Returns records that have matching values in both tables.
+LEFT JOIN :- Returns all records from the left table, and the matched records
+             from the right table.
+             It will return all the records from the left table, even if there 
+             are no matching records on the right table.
+RIGHT JOIN :- Returns all records from the right table, and the matched records
+              from the left table.
+              It will return all the records from the right table, even if there
+              are no matching records on the left table.
+CROSS JOIN :- Returns all records from both tables.
+
+--------------------
+INNER JOIN SYNTAX :-
+--------------------
+SELECT column name(s) 
+FROM table1
+INNER JOIN table2
+ON table1.column_name = table2.column_name;
+
+Example Query for Joining two tables:-
+
+SELECT Orders.OrderID, Customers.CustomerName
+FROM Orders
+INNER JOIN Customers ON Orders.CustomerID = Customers.CustomerID;
+
+Example Query for Joining three tables:-
+
+SELECT Orders.OrderID, Customers.CustomerName, Shippers.ShipperName
+FROM ((Orders
+INNER JOIN Customers ON Orders.CustomerID = Customers.CustomerID)
+INNER JOIN Shippers ON Orders.ShipperID = Shippers.ShipperID);
+
+-------------------
+LEFT JOIN SYNTAX :-
+-------------------
+SELECT column(s)
+from table1
+LEFT JOIN table2 
+ON table1.column_name = table2.column_name;
+
+--------------------
+RIGHT JOIN SYNTAX :-
+--------------------
+SELECT column(s)
+from table1
+RIGHT JOIN table2
+ON table1.column_name = table2.column_name;
+
+
+--------------------
+CROSS JOIN SYNTAX :-
+--------------------
+SELECT column(s)
+FROM table1
+CROSS JOIN table2;
+
+
+Note :- cross join can potentially return large result-sets.
+
+The cross join keyword returns all matching records from both tables
+whether the other table matches or not.
+If you add a WHERE clause, the CROSS JOIN will produce the same result
+as the INNER JOIN clause.
+
+Example(cross join syntax with Where clause which leads to inner join):-
+select column(s)
+from table1
+cross join table2 
+where table1.column_name = table2.column_name;
+
+
+-------------------
+SELF JOIN SYNTAX :-
+-------------------
+A self join is a regular join that the table is joined with itself.
+
+syntax :-
+
+select column(s)
+from table1 T1, table2 T2 
+where condition;
+
+
+----------------------
+MySQL UNION Operator :-
+----------------------
+The UNION operator is used to combine the result-set of two or more SELECT statements.
+
+Every SELECT statement within UNION must have the same number of columns
+The columns must also have similar data types
+The columns in every SELECT statement must also be in the same order
+
+syntax:-
+
+select column_name(s) from table1
+UNION
+select column_name(s) from table2
+
+
+
+------------------
+GROUP BY Syntax: -
+------------------
+The GROUP BY statement groups rows that have the same values into summary rows, like 
+"find the number of customers in each country"
+
+The GROUP BY statement is often used with aggregate functions(count(), max(), min(), 
+sum(), avg()) to group the result-set by one or more columns.
+
+syntax:-
+select column_name(s)
+from table_name
+where condition 
+group by column_name(s)
+order by column_name(s);
+
+The following SQL statement lists the number of customers in each country,
+sorted high to low:
+
+Example :-
+select count(CustomerID), country
+from customers
+group by country
+order by count(CustomerID) desc;
+
+
+----------------------
+MySql HAVING Clause :-
+----------------------
+The HAVING clause was added to the sql because the where keyword cannot
+be used with aggregate functions.
+
+syntax:-
+select column_name(s)
+from table_name
+where condition
+group by column_name(s)
+having condition
+order by column_name(s);
+
+
+
+
+---------------
+LIKE Operator:-
+---------------
+The LIKE operator is used in a WHERE clause to search for a specified pattern in a column.
+
+There are two wildcards often used in conjunction with the LIKE operator:
+
+- The percent sign (%) represents zero, one, or multiple characters
+
+- The underscore sign (_) represents one, single character
+
+The percent sign and the underscore can also be used in combinations
+
+Syntax :- 
+SELECT column1, column2, ...
+  FROM table_name
+  WHERE column LIKE pattern;
+
+
+
+
+------------------
+SQL IN Operator :-
+------------------
+
+The IN operator allows you to specify multiple values in a WHERE clause.
+
+The IN operator is a shorthand for multiple OR conditions.
+
+Syntax :- 
+SELECT column_name(s)
+FROM table_name
+WHERE column_name IN (value1, value2, ...);
+
+
+
+-----------------------
+SQL BETWEEN Operator :-
+-----------------------
+
+The BETWEEN operator selects values within a given range. The values can be numbers, text, or dates.
+
+The BETWEEN operator is inclusive: begin and end values are included.
+
+SELECT column_name(s) FROM table_name
+  WHERE column_name BETWEEN value1 AND value2;
+
+
+-----------------
+CASE Statement :-
+-----------------
+
+The CASE statement goes through conditions and returns a value when the first condition is met 
+(like an if-then-else statement). So, once a condition is true, it will stop reading and return 
+the result. If no conditions are true, it returns the value in the ELSE clause.
+
+If there is no ELSE part and no conditions are true, it returns NULL.
+
+Example :-
+SELECT patient_id, height,
+  CASE
+      WHEN height > 175 THEN 'height is greater than 175'
+      WHEN height = 175 THEN 'height is 175'
+      ELSE 'height is under 175'
+  END AS height_group
+  FROM patients;
+
+
+
+
+--------------------------------
+SQL SELECT DISTINCT Statement :-
+--------------------------------
+The SELECT DISTINCT statement is used to return only distinct (different) values.
+
+Inside a table, a column often contains many duplicate values; 
+and sometimes you only want to list the different (distinct) values.
+
+SELECT DISTINCT Syntax:-
+
+SELECT DISTINCT column1, column2, ...
+  FROM table_name;
