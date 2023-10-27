@@ -132,4 +132,10 @@ select d.fullname, s.Salary from EmployeeDetails as d
 full outer join EmployeeSalary as s on d.EmpId = s.EmpId;
 
 -- 30. Write a sql query to join 3 tables.
-select column1, column2 from tableA join tableB on tableA.column3 = tableB.Column3 join tableC on tableA.column4 = tableC.column4
+-- select column1, column2 from tableA join tableB on tableA.column3 = tableB.Column3 join tableC on tableA.column4 = tableC.column4
+
+-- 31. Write a sql query to fetch all the employees who are also managers from the employeedetails table.
+select distinct d.fullname from EmployeeDetails as d inner join EmployeeDetails as e on d.EmpId = e.ManagerId;
+
+-- 32. Write an sql query to fetch duplicate records from employeeDetails (without considering the primary key - empid).
+select fullname, managerid, DateOfJoining,City,count(*) from EmployeeDetails group by FullName, ManagerId, DateOfJoining, city having COUNT(*) > 1;
