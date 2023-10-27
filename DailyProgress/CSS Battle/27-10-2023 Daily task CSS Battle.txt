@@ -1,0 +1,37 @@
+<div></div>
+<div id=a></div>
+<p id=b></p>
+<style>
+*{
+    background:#CBE8DD;
+}
+#a{
+    border-bottom:38px solid #007192;
+    border-left:0px solid transparent;
+    border-right:110px solid transparent;
+    transform:rotate(39deg);
+    left:239;
+    top:151;
+}
+div{
+    position:absolute;
+    top:80;
+    left:75;
+    width:0;
+    height:0;
+    border-bottom:140px solid #007192;
+    border-left:125px solid transparent;
+    border-right:125px solid transparent;
+}
+#b{
+    position:absolute;
+    height:0;
+    width:0;
+    border-bottom:38px solid #007192;
+    border-left:110px solid transparent;
+    border-right:0px solid transparent;
+    transform:rotate(-39deg);
+    top:135;
+    left:51;
+}
+</style>
