@@ -1,0 +1,182 @@
+/* 
+1. Show the provinces that has more patients identified as 'M' than 'F'. 
+Must only show full province_name? 
+*/ 
+
+select province_name from (
+select province_name, 
+sum(gender = 'M') as male_count, 
+sum(gender = 'F') as female_count
+from patients as p 
+inner join province_names as pn 
+on p.province_id = pn.province_id 
+group by pn.province_id)
+where male_count > female_count
+
+/*
+2. Show patient_id, first_name, last_name, and attending doctor's specialty.
+Show only the patients who has a diagnosis as 'Epilepsy' and the doctor's first name is 'Lisa'
+Check patients, admissions, and doctors tables for required information.
+*/
+
+SELECT p.patient_id, 
+p.first_name, 
+p.last_name, 
+d.specialty
+FROM admissions AS a
+inner join patients as p
+on a.patient_id = p.patient_id
+inner join doctors as d 
+on a.attending_doctor_id = d.doctor_id
+where a.diagnosis = 'Epilepsy' and d.first_name = 'Lisa'
+
+/*
+3. All patients who have gone through admissions, can see their medical documents on our site. 
+Those patients are given a temporary password after their first admission. Show the patient_id and temp_password.
+
+The password must be the following, in order:
+1. patient_id
+2. the numerical length of patient's last_name
+3. year of patient's birth_date
+*/
+
+select distinct(p.patient_id), 
+concat(p.patient_id,len(p.last_name),year(p.birth_date)) as temp_password
+from patients as p 
+inner join admissions as a
+on p.patient_id = a.patient_id
+
+
+/*
+4. We need a breakdown for the total amount of admissions each doctor has started each year. 
+Show the doctor_id, doctor_full_name, specialty, year, total_admissions for that year.
+*/
+
+select d.doctor_id as doctor_id, 
+concat(d.first_name, ' ',d.last_name) as doctor_name,
+d.specialty, 
+YEAR(a.admission_date) as selected_year,
+count(*) as total_admissions
+from doctors as d
+RIGHT join admissions as a 
+on d.doctor_id = a.attending_doctor_id
+group by doctor_name,selected_year
+order by doctor_id, selected_year
+
+/*
+5. For each day display the total amount of admissions on that day. 
+Display the amount changed from the previous date.
+*/
+
+select
+admission_date,
+count(*) as admission_day,
+count(*) - lag(count(*),1) over() as admission_count_change
+from admissions
+group by admission_date
+
+
+/*
+6. We are looking for a specific patient. Pull all columns for the patient who matches the following criteria:
+- First_name contains an 'r' after the first two letters.
+- Identifies their gender as 'F'
+- Born in February, May, or December
+- Their weight would be between 60kg and 80kg
+- Their patient_id is an odd number
+- They are from the city 'Kingston'
+*/
+
+select
+patient_id,
+first_name,
+last_name,
+gender,
+birth_date,
+city,
+province_id,
+allergies,
+height,
+weight
+from patients
+where first_name like '__r%' 
+and gender = 'F' 
+and month(birth_date) in (2,5,12)
+and weight between 60 and 80
+and patient_id%2 != 0
+and city = 'Kingston';
+
+
+/*
+7. Each admission costs $50 for patients without insurance, and $10 for patients with insurance. 
+All patients with an even patient_id have insurance.
+
+Give each patient a 'Yes' if they have insurance, and a 'No' if they don't have insurance. 
+Add up the admission_total cost for each has_insurance group.
+*/
+
+select
+case
+	when patient_id %2 == 0 then 'Yes'
+    else 'No'
+    end as has_insurance,
+sum(
+  case
+  	when patient_id % 2 == 0 then 10 
+  	else 50
+  end
+) as cost_after_insurance
+from admissions
+group by has_insurance
+
+
+/*
+8. Show patient_id, weight, height, isObese from the patients table.
+
+Display isObese as a boolean 0 or 1.
+
+Obese is defined as weight(kg)/(height(m)2) >= 30.
+
+weight is in units kg.
+
+height is in units cm.
+*/
+
+select 
+patient_id,
+weight,
+height,
+case
+	when weight/((height*0.01)*(height*0.01)) >= 30 then 1
+	else 0
+end as isObese
+from
+patients 
+
+
+/*
+9. Show the employee's first_name and last_name, a "num_orders" column with a count of the orders taken, 
+and a column called "Shipped" that displays "On Time" if the order shipped on time and "Late" if the order 
+shipped late.
+Order by employee last_name, then by first_name, and then descending by number of orders.
+*/
+
+SELECT
+  e.first_name,
+  e.last_name,
+  COUNT(o.order_id) As num_orders,
+  (
+    CASE
+      WHEN o.shipped_date < o.required_date THEN 'On Time'
+      ELSE 'Late'
+    END
+  ) AS shipped
+FROM orders o
+  JOIN employees e ON e.employee_id = o.employee_id
+GROUP BY
+  e.first_name,
+  e.last_name,
+  shipped
+ORDER BY
+  e.last_name,
+  e.first_name,
+  num_orders DESC
