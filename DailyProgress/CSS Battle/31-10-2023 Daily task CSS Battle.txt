@@ -1,0 +1,56 @@
+<div><p></p></div>
+<div id=a><p></p></div>
+<div id=b><p></p></div>
+<div id=c><p></p></div>
+<div id=d><p></p></div>
+<style>
+* {
+    background: #763258;
+}
+
+div {
+    position: absolute;
+    top: 60;
+    left: 110;
+    width: 60;
+    height: 30;
+    background: #FAD5E5;
+}
+
+p {
+    position: absolute;
+    height: 30;
+    width: 30;
+    background: #FAD5E5;
+    top: 14;
+    left: 30;
+}
+
+#a {
+    left: 170;
+    top: 120;
+}
+
+#b {
+    left: 230;
+    top: 180;
+}
+
+#c {
+    top: 180;
+    background: #F067A6;
+}
+
+#c p {
+    background: #F067A6;
+}
+
+#d {
+    left: 230;
+    background: #F067A6;
+}
+
+#d p {
+    background: #F067A6;
+}
+</style>
