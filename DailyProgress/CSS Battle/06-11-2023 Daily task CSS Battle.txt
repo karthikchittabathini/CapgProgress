@@ -1,0 +1,45 @@
+<div></div>
+<div id=a></div>
+<div id=b></div>
+<div id=c></div>
+<p></p>
+<style>
+  *{
+    background:#302562;
+  }
+  div {
+    position:absolute;
+    top:40;
+    left:150;
+    width:60px;
+    height:60px;
+    border-radius:50%;
+    border:20px solid white;
+    border-color:#0098D1 #302562 #302562 #0098D1;
+    transform:rotate(45deg)
+  }
+  #a{
+    top:100;
+    left:210;
+    transform:rotate(135deg);
+  }
+  #b{
+    top:160;
+    left:150;
+    transform:rotate(225deg);
+  }
+  #c{
+    top:100;
+    left:90;
+    transform:rotate(315deg);
+  }
+  p{
+    position:absolute;
+    top:84;
+    left:150;
+    height:60;
+    width:60;
+    border:20px solid #0098D1;
+    border-radius:50%;
+  }
+</style>
