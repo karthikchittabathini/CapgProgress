@@ -1,3 +1,10 @@
+/*
+Rank :- The RANK Function in SQL Server is a kind of Ranking Function. 
+This function will assign the number to each row within the partition of an output. 
+It assigns the rank to each row as one plus the previous row rank.
+*/
+
+
 create table rank_demo(
 firstname varchar(25),
 lastname varchar(25),
